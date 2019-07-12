@@ -3,10 +3,12 @@ var mysql = require("mysql");
 
 // var connection;
 // if (process.env.JAWSDB_URL) {
-  connection = mysql.createConnection(process.env.JAWSDB_URL) ({
+  // connection =  mysql://vhvif13oq2au69ah:uvd7td369houpdaq@tkck4yllxdrw0bhi.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/u903m14qs707n7je({
+    // connection = mysql.createConnection(process.env.JAWSDB_URL) ({
+//  connection = mysql.//vhvif13oq2au69ah:uvd7td369houpdaq@tkck4yllxdrw0bhi.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/u903m14qs707n7je) ({
 // }
 //   connection = mysql.createConnection({
- 
+  var connection = mysql.createConnection(process.env.JAWSDB_URL) ({
   host: "tkck4yllxdrw0bhi.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
   port: 3306,
   user: "vhvif13oq2au69ah",
