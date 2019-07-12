@@ -17,3 +17,9 @@ li {
 .form-group {
   margin-bottom: 5px;
 }
+.wrapper {
+  width: 70%;
+  margin : 20px;
+  color : rgb(51, 51, 51);
+ }
+
