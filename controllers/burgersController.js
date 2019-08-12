@@ -16,6 +16,16 @@ router.get("/", function(req, res) {
   });
 });
 
+router.get("/columns", function(req, res) {
+  // burger.all(function(data) {
+  //   var hbsObject = {
+  //     burger: data
+  //   };
+  //   console.log(hbsObject);
+    res.render("columns");
+  // });
+});
+
 router.post("/api/burgers", function(req, res) {
   burger.create([
     "name", "devour"
